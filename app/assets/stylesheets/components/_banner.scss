@@ -1,0 +1,26 @@
+.banner {
+  color: white;
+  text-align: center;
+  height: calc(100vh - 70px);
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner p {
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+
+.down-of-image {
+  background-position: bottom;
+}
+
+
+.banner-content{
+  display: flex;
+  flex-direction: column;
+}
