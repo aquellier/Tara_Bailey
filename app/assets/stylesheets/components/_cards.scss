@@ -1,9 +1,14 @@
 .illustration-card {
-  height: 200px;
-}
-
-.illustration-card-picture {
+  height: 600px;
   background-size: cover !important;
   background-position: center !important;
-  background-repeat: no-repeat;s
+  background-repeat: no-repeat;
+  margin: 25px;
+  border: 1px solid $light-gray;
+  filter: grayscale(100%);
+  transition: 1s;
+  &:hover {
+    transition: 1s;
+    filter: grayscale(0%);
+  }
 }
