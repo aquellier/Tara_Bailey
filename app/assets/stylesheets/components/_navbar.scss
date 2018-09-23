@@ -1,5 +1,5 @@
 /* Main navbar */
-.navbar-wagon {
+.navbar-tara {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: white;
   z-index: 999;
@@ -19,25 +19,25 @@
 }
 
 /* Logo */
-.navbar-wagon-brand img {
+.navbar-tara-brand img {
   height: 50px;
 }
 
 /* Right section */
-.navbar-wagon-right {
+.navbar-tara-right {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 /* Basic navbar item */
-.navbar-wagon-item {
+.navbar-tara-item {
   cursor: pointer;
   margin: 0 60px;
 }
 
 /* Navbar link */
-.navbar-wagon-link {
+.navbar-tara-link {
   color: $gray;
   font-size: 20px;
   border-color: $gray;
@@ -51,12 +51,12 @@
 }
 
 /* Dropdown menu */
-.navbar-wagon-dropdown-menu {
+.navbar-tara-dropdown-menu {
   margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;
   border-color: #E6E6E6;
 }
-.navbar-wagon-dropdown-menu li > a {
+.navbar-tara-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
   color: #999999 !important;
@@ -64,11 +64,11 @@
   line-height: 22px !important;
   padding: 10px 20px;
 }
-.navbar-wagon-dropdown-menu li > a:hover {
+.navbar-tara-dropdown-menu li > a:hover {
   background: transparent !important;
   color: black !important;
 }
-.navbar-wagon-dropdown-menu:before {
+.navbar-tara-dropdown-menu:before {
   content: ' ';
   height: 10px;
   width: 10px;

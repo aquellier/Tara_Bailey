@@ -1,67 +1,10 @@
 <div class="banner" style="background-image: url('https://s3-ap-southeast-2.amazonaws.com/thenatives-fashionjournal-s3/wp-content/uploads/2017/02/25003159/ezgif-1-1183b24aeb.jpg');">
 </div>
 
-<div class="homepage-mosaic" id="womenswear">
-  <div class="col-left">
-
-    <div class = "mosaic-card medium" data-index='1'>
-      <div class="card-picture" style="background-image: url('https://static.wixstatic.com/media/7aa3e3_1eaee68f91324bd990a24113a30424fa~mv2_d_1365_2048_s_2.jpg/v1/fill/w_1365,h_2048,al_c,q_90/7aa3e3_1eaee68f91324bd990a24113a30424fa~mv2_d_1365_2048_s_2.webp')" alt="">
-      </div>
-    </div>
-
-    <div class = "mosaic-card big" data-index='3'>
-      <div class="card-picture" style="background-image: url('https://static.wixstatic.com/media/7aa3e3_3647ba3847ac4be69e7ece6cc6ec0bd0~mv2_d_1365_2048_s_2.jpg/v1/fill/w_1365,h_2046,al_c,q_90/7aa3e3_3647ba3847ac4be69e7ece6cc6ec0bd0~mv2_d_1365_2048_s_2.webp')" alt="">
-      </div>
-    </div>
-
-    <div class = "mosaic-card big" data-index='6'>
-      <div class="card-picture" style="background-image: url('https://static.wixstatic.com/media/7aa3e3_6c3af961f8e444a5ae2c2914478b2283~mv2_d_1365_2048_s_2.jpg/v1/fill/w_1363,h_2048,al_c,q_90/7aa3e3_6c3af961f8e444a5ae2c2914478b2283~mv2_d_1365_2048_s_2.webp')" alt="">
-      </div>
-    </div>
-
-    <div class = "mosaic-card small" data-index='8'>
-      <div class="card-picture" style="background-image: url('https://static.wixstatic.com/media/7aa3e3_1df0a0e84908489588a9396ebfe98c66~mv2_d_2048_1365_s_2.jpg/v1/fill/w_1954,h_1302,al_c,q_90,usm_0.66_1.00_0.01/7aa3e3_1df0a0e84908489588a9396ebfe98c66~mv2_d_2048_1365_s_2.webp')" alt="">
-      </div>
-    </div>
-
-  </div>
-
-  <div class="col-right">
-    <div class = "mosaic-card big" data-index='2'>
-      <div class="card-picture" style="background-image: url('https://static.wixstatic.com/media/7aa3e3_2f4cbe3106c4434aa9d2c97c2d2766bf~mv2_d_2048_1365_s_2.jpg/v1/fill/w_1950,h_1298,al_c,q_90,usm_0.66_1.00_0.01/7aa3e3_2f4cbe3106c4434aa9d2c97c2d2766bf~mv2_d_2048_1365_s_2.webp')" alt="">
-      </div>
-    </div>
-
-    <div class="col-2">
-      <div class = "mosaic-card small half-width-left" data-index='4'>
-        <div class="card-picture" alt="">
-        </div>
-      </div>
-
-      <div class = "mosaic-card small half-width-right" data-index='5'>
-        <div class="card-picture" style="background-image: url('https://static.wixstatic.com/media/7aa3e3_c0616866c7f14c0f997a84b18a8ef483~mv2_d_2048_1365_s_2.jpg/v1/fill/w_1954,h_1300,al_c,q_90,usm_0.66_1.00_0.01/7aa3e3_c0616866c7f14c0f997a84b18a8ef483~mv2_d_2048_1365_s_2.webp')" alt="">
-        </div>
-      </div>
-    </div>
-
-    <div class = "mosaic-card big" data-index='7'>
-      <div class="card-picture" style="background-image: url('https://static.wixstatic.com/media/7aa3e3_6ba1c56faad44ff09491b5e2d22b140f~mv2_d_2048_1365_s_2.jpg/v1/fill/w_1936,h_1290,al_c,q_90,usm_0.66_1.00_0.01/7aa3e3_6ba1c56faad44ff09491b5e2d22b140f~mv2_d_2048_1365_s_2.webp')" alt="">
-      </div>
-    </div>
-
-    <div class="col-2">
-      <div class = "mosaic-card medium half-width-left" data-index='9'>
-        <div class="card-picture" style="background-image: url('https://static.wixstatic.com/media/7aa3e3_0b39a697105c44e68af5a60522b90033~mv2_d_1365_2048_s_2.jpg/v1/fill/w_1365,h_2047,al_c,q_90/7aa3e3_0b39a697105c44e68af5a60522b90033~mv2_d_1365_2048_s_2.webp')" alt="">
-        </div>
-      </div>
-
-      <div class = "mosaic-card medium half-width-right" data-index='10'>
-        <div class="card-picture" style="background-image: url('https://static.wixstatic.com/media/7aa3e3_27fde94171da4ad8a14342aa928e1c73~mv2_d_1365_2048_s_2.jpg/v1/fill/w_1365,h_2048,al_c,q_90/7aa3e3_27fde94171da4ad8a14342aa928e1c73~mv2_d_1365_2048_s_2.webp')" alt="">
-        </div>
-      </div>
-    </div>
-
-
+<div class="smooth-scroll">
+  <div class="homepage-mosaic" id="womenswear">
+  <%= render 'womenswear' %>
+  <%= render 'left_column' %>
+  <%= render 'right_column' %>
   </div>
 </div>
-
