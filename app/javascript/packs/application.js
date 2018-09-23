@@ -8,3 +8,15 @@
 // layout file, like app/views/layouts/application.html.erb
 
 console.log('Hello World from Webpacker')
+
+const womenswear = document.getElementById('womenswear');
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.getElementById(`${anchor.name}`).scrollIntoView({
+            behavior: 'smooth',
+            block: "start"
+        });
+    });
+});

@@ -1,13 +1,14 @@
+h2 {
+  padding: 140px 0;
+  text-align: center;
+  color: $dark-dark-gray;
+}
+
 .homepage-mosaic {
   max-width: 2054px;
   padding-left: 2em;
   padding-right: 2em;
   margin: 0 auto;
-}
-
-.homepage-block {
-  position: relative;
-  text-align: center;
 }
 
 .col-left {
@@ -52,6 +53,11 @@
   background-size: cover !important;
   background-position: center !important;
   transition: all 0.6s;
+  filter: grayscale(100%);
+  &:hover {
+    filter: grayscale(0%);
+    transition: 1s;
+  }
 }
 .col-2 {
   position: relative;
@@ -69,4 +75,8 @@
   width: 49%;
   float: right;
   margin-top: 0;
+}
+
+.blank {
+  color: transparent;
 }

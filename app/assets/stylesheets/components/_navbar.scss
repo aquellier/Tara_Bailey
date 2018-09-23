@@ -18,7 +18,16 @@
   }
 }
 
-/* Logo */
+a, a:active, a:visited {
+  text-decoration:none;
+  color: $gray;
+}
+
+a:focus {
+  text-decoration:none;
+  color: $dark-dark-gray;
+}
+
 .navbar-tara-brand img {
   height: 50px;
 }
