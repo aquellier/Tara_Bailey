@@ -1,77 +1,12 @@
-
-<div class="wrap">
-  <div id="arrow-left" class="arrow"></div>
-
-  <div id="slider">
-    <div class="slide slide1">
-      <div class="slide-content">
-        <span>Image One</span>
-      </div>
-    </div>
-    <div class="slide slide2">
-      <div class="slide-content">
-        <span>Image Two</span>
-      </div>
-    </div>
-    <div class="slide slide3">
-      <div class="slide-content">
-        <span>Image Three</span>
-      </div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <% (1..9).to_a.each do |number| %>
+        <div class="illustration-card">
+          <div class="illustration-card-picture"
+          style="background: url('https://images.unsplash.com/photo-1537691321166-d766dfd693d9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ee03913ae00f830eb1c0accd44bb2550&auto=format&fit=crop&w=668&q=80')"></div>
+        </div>
+      <% end %>
     </div>
   </div>
-
-    <div id="arrow-right" class="arrow"></div>
 </div>
-
-<script>
-  let sliderImages = document.querySelectorAll('.slide'),
-      arrowLeft = document.querySelector('#arrow-left'),
-      arrowRight = document.querySelector('#arrow-right'),
-      current = 0;
-
-  // Clear all images
-  function reset() {
-    for(let i = 0; i < sliderImages.length; i++) {
-      sliderImages[i].style.display = 'none';
-    }
-  }
-
-  // Init slider
-  function startSlide() {
-    reset();
-    sliderImages[0].style.display = 'block';
-  }
-
-  // Show previous
-  function slideLeft() {
-    reset();
-    sliderImages[current - 1].style.display = 'block';
-    current--;
-  }
-
-  // Show previous
-  function slideRight() {
-    sliderImages[current + 1].style.display = 'block';
-    current++;
-  }
-
-  // Left arrow click
-  arrowLeft.addEventListener('click', function(){
-    if(current === 0){
-      current = sliderImages.length;
-    }
-    slideLeft();
-  });
-  startSlide();
-
-  // Right arrow click
-  arrowRight.addEventListener('click', function(){
-    if(current === sliderImages.length){
-      current = -1;
-    }
-    slideRight();
-  });
-  startSlide();
-
-
-</script>
