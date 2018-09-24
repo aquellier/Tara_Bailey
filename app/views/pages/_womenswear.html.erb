@@ -2,6 +2,20 @@
 <div id="womenswear" class="text-center">
   <h2>Womenswear</h2>
   <p>National Graduate Showcase, Royal Exhibition Building Melbourne, March 19th 2017.</p>
+
+<!-- On big screen -->
   <%= render 'left_column' %>
   <%= render 'right_column' %>
+
+<!-- On small screen -->
+<div class="hidden-md hidden-lg">
+  <ul class="list-inline">
+    <% (1..9).to_a.each do |number| %>
+    <div class="col-xs-12">
+      <li><div class="womenswear-smallscreen-card" style="background-image: url(<%= image_path "Womenswear#{number}.png"%>)"></div></li>
+    </div>
+    <% end %>
+  </ul>
+</div>
+
 </div>
