@@ -1,6 +1,6 @@
 .illustration-card {
   height: 600px;
-  background-size: cover !important;
+  background-size: cover;
   background-position: center !important;
   background-repeat: no-repeat;
   margin: 25px;
@@ -10,5 +10,6 @@
   &:hover {
     transition: 1s;
     filter: grayscale(0%);
+    transform: scale(1.03);
   }
 }
