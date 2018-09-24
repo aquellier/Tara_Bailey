@@ -42,13 +42,13 @@ a:focus {
 /* Basic navbar item */
 .navbar-tara-item {
   cursor: pointer;
-  margin: 0 60px;
+  margin: 0 40px;
 }
 
 /* Navbar link */
 .navbar-tara-link {
   color: $gray;
-  font-size: 20px;
+  font-size: 18px;
   border-color: $gray;
   padding: 35px 0;
   &:hover {

@@ -10,11 +10,19 @@ h2 {
 }
 
 h4 {
+  padding-top: 100px;
+  font-size: 24px;
   color: $dark-dark-gray;
 }
 
 .about-container {
   padding: 0 50px;
+  h3 {
+    padding: 30px 0;
+    font-size: 24px;
+    text-align: center;
+    color: $dark-dark-gray;
+  }
 }
 .about-description {
   columns: 3 300px;

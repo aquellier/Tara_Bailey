@@ -1,7 +1,10 @@
 <ul class="list-inline">
   <% (1..9).to_a.each do |number| %>
   <div class="col-xs-12 col-sm-6 col-lg-4">
-    <li><div class="illustration-card" style="background-image: url(<%= image_path "Illustration#{number}.png"%>)"></div></li>
+    <li>
+      <div class="illustration-card" style="background-image: url(<%= image_path "Illustration#{number}.png"%>)">
+      </div>
+    </li>
   </div>
   <% end %>
 </ul>

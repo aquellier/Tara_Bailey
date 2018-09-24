@@ -28,3 +28,12 @@
     filter: grayscale(0%);
   }
 }
+
+.job-picture-card {
+  height: 250px;
+  background-size: cover;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  margin: 25px;
+  border: 1px solid $light-gray;
+}
