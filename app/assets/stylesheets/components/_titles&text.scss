@@ -11,5 +11,12 @@ h2 {
 
 h4 {
   color: $dark-dark-gray;
-  padding: 50px;
+}
+
+.about-container {
+  padding: 0 50px;
+}
+.about-description {
+  columns: 3 300px;
+  padding: 30px 0;
 }
