@@ -43,3 +43,17 @@
 .banner-buttons {
   margin-top: 0.5em;
 }
+
+.animate-reveal {
+  opacity: 0;
+  animation: reveal 3s 1 normal forwards;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
