@@ -1,14 +1,12 @@
 .btn-gray {
   margin: 15px;
-  color: $dark-dark-gray;
-  padding: 5px 35px;
+  color: $dark-dark-gray !important;
+  padding: 7px 45px;
   border-radius: 3px;
-  background: $light-gray;
-  background-opacity: 1;
+  background-color: rgba(255, 255, 255, 0.8);
   &:hover {
-    transition: 0.5s;
-    background-opacity: 0.5;
     text-decoration: none;
     color: $dark-dark-gray;
+    background-color: rgba(255, 255, 255, 1);
   }
 }

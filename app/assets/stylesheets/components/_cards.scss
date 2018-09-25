@@ -19,14 +19,14 @@
   background-size: cover;
   background-position: center !important;
   background-repeat: no-repeat;
-  margin: 25px;
   border: 1px solid $light-gray;
-  filter: grayscale(100%);
-  transition: 1s;
-  &:hover {
-    transition: 1s;
-    filter: grayscale(0%);
-  }
+  margin: 5px 0;
+  // filter: grayscale(100%);
+  // transition: 1s;
+  // &:hover {
+  //   transition: 1s;
+  //   filter: grayscale(0%);
+  // }
 }
 
 .job-picture-card {
@@ -34,6 +34,12 @@
   background-size: cover;
   background-position: center !important;
   background-repeat: no-repeat;
-  margin: 25px;
+  margin: 10px;
   border: 1px solid $light-gray;
+  text-align: center;
+  h4 {
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 0.2em;
+  }
 }
